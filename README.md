@@ -14,6 +14,7 @@ FDMart is a grocery store dealing with various products of daily needs. Customer
 Before we start our analysis, we need to get familiarized with the transaction pattern. Let’s explore before creating any rules.
 Firstly, we split the products based on transaction ID and plot the frequent items that have 10% support i.e. if there are 100 transactions, there will be 10 such transactions which will have these items (Relative Frequency).
 
+![Screenshot](Relative Frequency.png)
 
 
 
