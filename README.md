@@ -23,7 +23,7 @@ Top 20 Frequent Item sets that occur in the transaction database(Absolute Freque
 
 Next, we create a rule, having 0.5% support and 80% confidence. This resulted in a set of 733515 rules.
 
-                                                     BEVERAGE SELLING PATTERN
+                                                    ** BEVERAGE SELLING PATTERN  **
 Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and Beer Association Rule.
 
 |      LHS        | 	  RHS       |	# of Rules  |
@@ -50,6 +50,30 @@ Below are the top 5 patterns of each rule. It shows how other items are related 
 -Beer(rhs): Similarly, buying Dried meat, Nuts, Dips etc implies buying Beer.
 
 The diagram clearly explains, the top 5 transactions (marked in pink) and its associated items in Green. The implied items are those which has all converging arrows and they are Candles, Wine, Oysters, and Beer.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/TOP5%20transactions.png)
+
+                                                      ** CANNED vs FRESH **
+Purchase patterns related to canned items vs fresh items:  Determination of canned and fresh item sets association rule.
+
+|         LHS	        |       RHS          |	  # of Rules    |
+|       ---------     |     --------       |   -------------  |
+| Other Items ->      |	 Canned Vegetables |       35096      |
+|Canned Vegetables -> |   	Other Items	   |       182631     |
+|Other Items ->	      |  Canned Fruit      |	       0        |
+|Canned Fruit ->	    |   Other Items      |         6        |
+|Other Items ->	      |   Fresh Fruit	     |        1947      |
+|Fresh Fruit ->	      |   Other Items	     |        6615      |
+|Other Items ->	      |   Fresh Vegetables |	     59969      |
+|Fresh Vegetables ->	|   Other Items      |     	266511      |
+|Other Items ->	      |    Fresh Fish	     |        0         |
+|Fresh Fish ->	      |   Other Items      |       	0         |
+|Other Items ->	      |   Fresh Chicken    |     	 170        |
+|Fresh Chicken ->	    |   Other Items      |       604        |
+
+SCATTER PLOT:
+              The scatter plot clearly reveals the purchasing pattern of canned items. There seem to be a demand of canned vegatables but there is  neglible purchase of canned fruit.
+
 
 
 
