@@ -19,7 +19,23 @@ Firstly, we split the products based on transaction ID and plot the frequent ite
 The plot clearly reveals that the store indeed specializes in Fresh Vegetables and Fresh Fruit as stated above. Fresh Vegetables occur in 30% of the transactions and Fresh fruit in 20%.
 Top 20 Frequent Item sets that occur in the transaction database(Absolute Frequency). This would help in identifying other interesting patterns, to increase sales of their products other than Fresh Vegetables and Fruits.
 
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Absolute%20Frequency.png)
+
 Next, we create a rule, having 0.5% support and 80% confidence. This resulted in a set of 733515 rules.
+
+                                                     BEVERAGE SELLING PATTERN
+Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and Beer Association Rule.
+|      LHS        | 	  RHS       |	# of Rules  |
+|     ------      |   -------     |   --------  |
+| Other Items ->	|     Wine	    |     162     |
+| Wine ->	        | Other Items   |   	433     |
+| Other Items ->  |	   Beer	      |     354     |
+| Beer ->	        |  Other Items	|    2278     |
+
+SCATTER PLOT:
+              The scatter plot clearly reveals the purchasing pattern of wine and beer. Moreover, the generated rules have a potential usefulness as they have both high confidence and lift and these would play a key role in the making of important business decision.
+Both Beer and Wine on the LHS has a better lift value than on RHS.
+
 
 
 
