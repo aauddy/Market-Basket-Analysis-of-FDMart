@@ -25,6 +25,7 @@ Next, we create a rule, having 0.5% support and 80% confidence. This resulted in
 
                                                      BEVERAGE SELLING PATTERN
 Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and Beer Association Rule.
+
 |      LHS        | 	  RHS       |	# of Rules  |
 |     ------      |   -------     |   --------  |
 | Other Items ->	|     Wine	    |     162     |
@@ -35,6 +36,23 @@ Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and 
 SCATTER PLOT:
               The scatter plot clearly reveals the purchasing pattern of wine and beer. Moreover, the generated rules have a potential usefulness as they have both high confidence and lift and these would play a key role in the making of important business decision.
 Both Beer and Wine on the LHS has a better lift value than on RHS.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Beer%26Wine.jpg)
+
+Below are the top 5 patterns of each rule. It shows how other items are related to Wine and Beer.
+
+-Wine(lhs): If someone is buying wine along with other items like Fresh Vegetables, Spices, Rice, Pasta, Sauces, fresh chicken in various combination, then it clearly implies that he will end up buying candles as well.
+
+-Wine(rhs): Similarly, buying Fresh Vegetables, Spices, Rice, Cooking oil, Pasta, spices, candles in various patterns implies that someone will buy wine.
+
+-Beer(lhs): Buying Beer with other items like Cereal, Clams, Eggs etc implies buying oysters. It is to be noted that one of the rules implies Sardines as well. Both Oyster and Sardine have the same lift value.
+
+-Beer(rhs): Similarly, buying Dried meat, Nuts, Dips etc implies buying Beer.
+
+The diagram clearly explains, the top 5 transactions (marked in pink) and its associated items in Green. The implied items are those which has all converging arrows and they are Candles, Wine, Oysters, and Beer.
+
+
+
 
 
 
