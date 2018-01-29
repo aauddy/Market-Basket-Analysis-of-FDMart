@@ -89,7 +89,7 @@ The below graph depicts, the volume of small transactions are more than large tr
 
 Large Transaction Pattern: # of rules generated for Large Transaction is 619251
 
-![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Large%20Transaction.png)
 
 
 
