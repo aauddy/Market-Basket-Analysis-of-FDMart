@@ -23,7 +23,7 @@ Top 20 Frequent Item sets that occur in the transaction database(Absolute Freque
 
 Next, we create a rule, having 0.5% support and 80% confidence. This resulted in a set of 733515 rules.
 
-                                                    ## BEVERAGE SELLING PATTERN 
+                                                    ## BEVERAGE SELLING PATTERN ##
 Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and Beer Association Rule.
 
 |      LHS        | 	  RHS       |	# of Rules  |
