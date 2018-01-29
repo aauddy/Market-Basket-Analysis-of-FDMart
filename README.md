@@ -74,9 +74,20 @@ Purchase patterns related to canned items vs fresh items:  Determination of cann
 SCATTER PLOT:
               The scatter plot clearly reveals the purchasing pattern of canned items. There seem to be a demand of canned vegatables but there is  neglible purchase of canned fruit.
 
-![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/TOP5%20transactions.png)
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Purchase%20canned%20items.png)
 
 The below scatter plot reveals the purchasing pattern of fresh items. It is clear from the plot that the demand of fresh fruit and vegetables is more than the canned items. No association rule was found for fresh fish.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
+
+                                                    ** Small vs Large Transaction **
+Transactions items less than equal to 5 has been marked as small transaction and greater than 5 as large. 
+Small Transaction Pattern: # of rules generated for Small Transaction is 114264.
+The below graph depicts, the volume of small transactions are more than large transactions.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
+
+Large Transaction Pattern: # of rules generated for Large Transaction is 619251
 
 ![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
 
