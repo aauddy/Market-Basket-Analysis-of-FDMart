@@ -23,8 +23,8 @@ Top 20 Frequent Item sets that occur in the transaction database(Absolute Freque
 
 Next, we create a rule, having 0.5% support and 80% confidence. This resulted in a set of 733515 rules.
 
-                                         Markup:  ## BEVERAGE SELLING PATTERN ##
-Markup :  ## BEVERAGE SELLING PATTERN ##
+                           *****************   BEVERAGE SELLING PATTERN  *******************
+
 Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and Beer Association Rule.
 
 |      LHS        | 	  RHS       |	# of Rules  |
@@ -54,7 +54,7 @@ The diagram clearly explains, the top 5 transactions (marked in pink) and its as
 
 ![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/TOP5%20transactions.png)
 
-                                                      ** CANNED vs FRESH **
+                                              ************ CANNED vs FRESH ************
 Purchase patterns related to canned items vs fresh items:  Determination of canned and fresh item sets association rule.
 
 |         LHS	        |       RHS          |	  # of Rules    |
@@ -81,7 +81,7 @@ The below scatter plot reveals the purchasing pattern of fresh items. It is clea
 
 ![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
 
-                                                    ** Small vs Large Transaction **
+                                           ********** Small vs Large Transaction **************
 Transactions items less than equal to 5 has been marked as small transaction and greater than 5 as large. 
 Small Transaction Pattern: # of rules generated for Small Transaction is 114264.
 The below graph depicts, the volume of small transactions are more than large transactions.
@@ -93,7 +93,7 @@ Large Transaction Pattern: # of rules generated for Large Transaction is 619251
 ![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Large%20Transaction.png)
 
 
-                                    Interesting Pattern – Cheese & Sliced Bread
+                                    **************  Interesting Pattern – Cheese & Sliced Bread  ***************
 Interesting Pattern: After fresh vegetables and fresh fruit, the most frequent item that occurs is Cheese. We explored and found Cheese along with Sliced Bread create 54036 rules.
 Both Cheese and Sliced bread are among the top 20 frequent items. Therefore, if we club the non-frequent items along with these 2 frequent items and offer a bundle price, then the business can increase the number of items sold in a transaction and also increase its revenue. The confidence range is between 80% - 100 % and the lift value is also high.
 
@@ -105,7 +105,7 @@ Top 5 patterns having Cheese and Sliced bread.
 
 This pattern shows buying Cheese and sliced bread along with other items will imply buying shrimp.
 
-                                         Weekend vs Weekday Transaction
+                                       **************  Weekend vs Weekday Transaction  ********************
 Average number of transactions per day depicts there are more transactions on weekends than weekdays.
 
 ![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Weekend%20vs%20Weekdays.png)
