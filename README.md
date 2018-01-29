@@ -23,7 +23,7 @@ Top 20 Frequent Item sets that occur in the transaction database(Absolute Freque
 
 Next, we create a rule, having 0.5% support and 80% confidence. This resulted in a set of 733515 rules.
 
-                                                    ** BEVERAGE SELLING PATTERN  **
+                                                    ##BEVERAGE SELLING PATTERN 
 Purchase patterns related to beverages (Wine, Beer):  Determination of Wine and Beer Association Rule.
 
 |      LHS        | 	  RHS       |	# of Rules  |
@@ -85,11 +85,41 @@ Transactions items less than equal to 5 has been marked as small transaction and
 Small Transaction Pattern: # of rules generated for Small Transaction is 114264.
 The below graph depicts, the volume of small transactions are more than large transactions.
 
-![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Small%20transactions.png)
 
 Large Transaction Pattern: # of rules generated for Large Transaction is 619251
 
 ![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Large%20Transaction.png)
+
+
+                                    Interesting Pattern – Cheese & Sliced Bread
+Interesting Pattern: After fresh vegetables and fresh fruit, the most frequent item that occurs is Cheese. We explored and found Cheese along with Sliced Bread create 54036 rules.
+Both Cheese and Sliced bread are among the top 20 frequent items. Therefore, if we club the non-frequent items along with these 2 frequent items and offer a bundle price, then the business can increase the number of items sold in a transaction and also increase its revenue. The confidence range is between 80% - 100 % and the lift value is also high.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Cheesebread%20plot.png)
+
+Top 5 patterns having Cheese and Sliced bread. 
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Cheese%20bread%20top%205.png)
+
+This pattern shows buying Cheese and sliced bread along with other items will imply buying shrimp.
+
+                                         Weekend vs Weekday Transaction
+Average number of transactions per day depicts there are more transactions on weekends than weekdays.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Weekend%20vs%20Weekdays.png)
+
+The below data shows the number of product transactions on each day and it is highest on weekends.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Product%20count%20by%20day.png)
+
+The boxplot shows the transaction median is more on weekends than weekdays and it also shows the maximum outlier is on weekend (Saturday & Sunday). The above two graphs along with the box plot clearly implies than there is more transaction on weekend than weekday.
+
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/Transaction%20Count%20by%20day.png)
+
+
+
+
 
 
 
