@@ -78,7 +78,7 @@ SCATTER PLOT:
 
 The below scatter plot reveals the purchasing pattern of fresh items. It is clear from the plot that the demand of fresh fruit and vegetables is more than the canned items. No association rule was found for fresh fish.
 
-![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/TOP5%20transactions.png)
+![alt text](https://github.com/aauddy/Market-Basket-Analysis-of-FDMart/blob/master/FreshvsCanned.png)
 
 
 
